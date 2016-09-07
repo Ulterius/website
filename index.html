@@ -38,9 +38,42 @@
 <body>
 
 <section class="top">
-  <div class="container">
-    <a href="/" class="logo"></a>
+  <div class="header  desktop-only">
+    <div class="header__container  container">
+      <a href="" class="logo"></a>
 
+      <ul class="nav">
+        <li class="nav__item"><a class="nav__link" href="https://twitter.com/ulteriusapp">Twitter</a></li>
+        <li class="nav__item"><a class="nav__link" href="https://www.facebook.com/UlteriusApp/">Facebook</a></li>
+        <li class="nav__item"><a class="nav__link" href="https://blog.ulterius.io/">Blog</a></li>
+      </ul>
+
+      <a href="#" class="nav__link">Signup</a>
+    </div>
+  </div>
+
+  <div class="header  mobile-only">
+    <div class="header__container  container">
+      <a class="menu-toggle" href="#">
+        <div class="hamburger">
+          <div class="hamburger-box">
+            <div class="hamburger-inner"></div>
+          </div>
+        </div>
+      </a>
+      <a href="" class="logo"></a>
+
+      <a href="#" class="nav__link">Signup</a>
+
+      <ul class="mobile-nav">
+        <li class="mobile-nav__item"><a class="mobile-nav__link" href="https://twitter.com/ulteriusapp">Twitter</a></li>
+        <li class="mobile-nav__item"><a class="mobile-nav__link" href="https://www.facebook.com/UlteriusApp/">Facebook</a></li>
+        <li class="mobile-nav__item"><a class="mobile-nav__link" href="https://blog.ulterius.io/">Blog</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container">
     <h1>Easy Remote Management</h1>
     <a target="_blank" href="https://ulterius.io/downloads/ulterius1.1.0beta.exe" class="button">Download 1.1 (Windows)</a>
 
@@ -158,5 +191,7 @@
   </div>
 </footer>
 
+<script   src="https://code.jquery.com/jquery-3.1.0.slim.min.js"   integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8="   crossorigin="anonymous"></script>
+<script src="/script.js"></script>
 </body>
 </html>
