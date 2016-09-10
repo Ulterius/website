@@ -6,30 +6,30 @@
 
   <title>Ulterius</title>
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/style.css">
   <meta name="google-site-verification" content="qoM6_ghCVSFM4Xbulid6NbJWauFb-Qhgv0McwhKWEZI" />
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600|Oswald' rel='stylesheet' type='text/css'>
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" sizes="57x57" href="img/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
+  <link rel="manifest" href="/src/static/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
   <meta name="description" content="Access your computer from any web browser when you need it, securely, with Ulterius.">
   <meta property="og:url" content="https://ulterius.io/">
   <meta property="og:title" content="Ulterius">
-  <meta property="og:image" content="https://ulterius.io/images/header.png">
+  <meta property="og:image" content="https://ulterius.io/img/header.png">
   <meta property="og:site_name" content="Ulterius">
   <meta property="og:description" content="Access your computer from any web browser when you need it, securely, with Ulterius.">
 
@@ -54,8 +54,8 @@
 
   <div class="header  mobile-only">
     <div class="header__container  container">
-      <a class="menu-toggle" href="#">
-        <div class="hamburger">
+      <a id="menu-toggle" href="#">
+        <div id="hamburger">
           <div class="hamburger-box">
             <div class="hamburger-inner"></div>
           </div>
@@ -65,7 +65,7 @@
 
       <a href="#" class="nav__link">Signup</a>
 
-      <ul class="mobile-nav">
+      <ul id="mobile-nav">
         <li class="mobile-nav__item"><a class="mobile-nav__link" href="https://twitter.com/ulteriusapp">Twitter</a></li>
         <li class="mobile-nav__item"><a class="mobile-nav__link" href="https://www.facebook.com/UlteriusApp/">Facebook</a></li>
         <li class="mobile-nav__item"><a class="mobile-nav__link" href="https://blog.ulterius.io/">Blog</a></li>
@@ -77,7 +77,7 @@
     <h1>Easy Remote Management</h1>
     <a target="_blank" href="https://ulterius.io/downloads/ulterius1.1.0beta.exe" class="button">Download 1.1 (Windows)</a>
 
-    <img class="featured-image" src="images/featured.png" alt="">
+    <img class="featured-image" src="img/featured.png" alt="">
   </div>
 </section>
 
@@ -87,7 +87,7 @@
     <hr class="separator">
 
     <div class="features-item">
-      <img class="features-item__image" src="images/features/files.png" alt="" />
+      <img class="features-item__image" src="img/features/files.png" alt="" />
 
       <div class="features-item__text">
         <h3>Always Accessible</h3>
@@ -101,7 +101,7 @@
     <hr class="separator">
 
     <div class="features-item  features-item--reverse">
-      <img class="features-item__image" src="/images/features/monitor.png" alt="" />
+      <img class="features-item__image" src="img/features/monitor.png" alt="" />
 
       <div class="features-item__text">
         <h3>Monitor Everything</h3>
@@ -115,7 +115,7 @@
     <hr class="separator">
 
     <div class="features-item">
-      <img class="features-item__image" src="/images/features/vnc.png" alt="" />
+      <img class="features-item__image" src="img/features/vnc.png" alt="" />
 
       <div class="features-item__text">
         <h3>Pain-free Remote Desktop</h3>
@@ -130,7 +130,7 @@
     <hr class="separator">
 
     <div class="features-item  features-item--reverse">
-      <img class="features-item__image" src="/images/features/terminal.png" alt="" />
+      <img class="features-item__image" src="img/features/terminal.png" alt="" />
 
       <div class="features-item__text">
         <h3>Task Manager, Command Prompt, PowerShell, and More</h3>
@@ -149,22 +149,22 @@
   <div class="container">
     <ul>
       <li>
-        <img src="/images/highlights/lock.png" alt="">
+        <img src="img/highlights/lock.png" alt="">
         <p>AES encryption with support for SSL</p>
       </li><li>
-        <img src="/images/highlights/realtime.png" alt="">
+        <img src="img/highlights/realtime.png" alt="">
         <p>Real-time updates</p>
       </li><li>
-        <img src="/images/highlights/code.png" alt="">
+        <img src="img/highlights/code.png" alt="">
         <p>Open-source (MPL 2.0)</p>
       </li><li>
-        <img src="/images/highlights/list.png" alt="">
+        <img src="img/highlights/list.png" alt="">
         <p>Easy-to-use interface</p>
       </li><li>
-        <img src="/images/highlights/devices.png" alt="">
+        <img src="img/highlights/devices.png" alt="">
         <p>Device and browser agnostic</p>
       </li><li>
-        <img src="/images/highlights/puzzle.png" alt="">
+        <img src="img/highlights/puzzle.png" alt="">
         <p>Infinitely extensible</p>
       </li>
     </ul>
@@ -190,8 +190,6 @@
     </div>
   </div>
 </footer>
-
-<script   src="https://code.jquery.com/jquery-3.1.0.slim.min.js"   integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8="   crossorigin="anonymous"></script>
-<script src="/script.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
