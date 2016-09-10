@@ -506,7 +506,7 @@ footer a:hover {
 
 .header {
   padding: 30px 0;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   opacity: 0;
   -webkit-animation: slide-down 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0.3s forwards;
   animation: slide-down 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0.3s forwards;
