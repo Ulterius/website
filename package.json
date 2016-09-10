@@ -20,7 +20,6 @@
     "gulp-imagemin": "^3.0.3",
     "gulp-jshint": "^2.0.1",
     "gulp-plumber": "^1.1.0",
-    "gulp-sass": "^2.3.2",
     "gulp-uglify": "^2.0.0",
     "jshint": "^2.9.3",
     "jshint-stylish": "^2.2.1"
