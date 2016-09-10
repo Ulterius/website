@@ -16,7 +16,6 @@ var uglify = require("gulp-uglify");
 // Styles
 var minify = require("gulp-cssnano");
 var prefix = require("gulp-autoprefixer");
-var sass = require("gulp-sass");
 
 // Images
 var imagemin = require("gulp-imagemin");
