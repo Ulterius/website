@@ -1,2 +1,6 @@
-# website
-The source code for ulterius.xyz
+# ulterius.io
+Source code for ulterius.io
+
+# How to build
+    npm install
+    gulp
