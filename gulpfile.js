@@ -37,7 +37,7 @@ var paths = {
         output: "dist/"
     },
     styles: {
-        input: "src/styles/**/*.{css}",
+        input: "src/styles/**/*.css",
         output: "dist/styles/"
     }
 };
