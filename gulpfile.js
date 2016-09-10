@@ -37,7 +37,7 @@ var paths = {
         output: "dist/"
     },
     styles: {
-        input: "src/styles/**/*.{scss,sass,css}",
+        input: "src/styles/**/*.{css}",
         output: "dist/styles/"
     }
 };
@@ -78,7 +78,6 @@ gulp.task("build:static", ["clean:static"], function() {
 gulp.task("build:styles", ["clean:styles"], function() {
     return gulp.src(paths.styles.input)
         .pipe(plumber())
-        .pipe(sass()).on("error", sass.logError)
         .pipe(prefix({
             browsers: ["last 2 version", "> 1%"],
             cascade: true,

@@ -1,1 +1,0 @@
-var e=document.getElementById("menu-toggle"),t=document.getElementById("mobile-nav"),l=document.getElementById("hamburger");e.onclick=function(e){l.classList.toggle("is-active"),t.classList.toggle("mobile-nav--visible"),document.body.classList.toggle("menu-visible"),e.preventDefault()};
