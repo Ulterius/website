@@ -1,0 +1,27 @@
+{
+  "name": "ulterius.io",
+  "version": "1.0.0",
+  "description": "ulterius.io website",
+  "main": "src/index.html",
+  "author": "",
+  "repository": "https://github.com/Ulterius/website",
+  "license": "MPL-2.0",
+  "scripts": {
+    "preinstall": "npm install -g gulp",
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.14.3",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-jshint": "^2.0.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.3",
+    "jshint-stylish": "^2.2.1"
+  }
+}
