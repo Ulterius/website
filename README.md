@@ -5,6 +5,6 @@ Source code for ulterius.io
 
     node
 
-# How to build
+# How to create
     npm install
     gulp
